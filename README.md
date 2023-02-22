@@ -69,9 +69,9 @@ allure serve allure-results
 
 ![Allure suites report](https://user-images.githubusercontent.com/59876702/220685382-41e5a467-0c02-4a79-a6d1-8f3046458843.PNG)
 
-**Screenshot of the overall project run in appium**[Appium](https://user-images.githubusercontent.com/59876702/220689891-35a3f4dd-3004-43f6-81bc-9d0dfffc60a6.PNG)
+**Screenshot of the overall project run in appium**
 
-![App inspection in appium]
+![App inspection in appium](https://user-images.githubusercontent.com/59876702/220689891-35a3f4dd-3004-43f6-81bc-9d0dfffc60a6.PNG)
 
 - Watch the Project video and test run:!
 
