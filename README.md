@@ -2,12 +2,9 @@
 ### An [EMI calculator](https://play.google.com/store/apps/details?id=com.continuum.emi.calculator) is automated by testing with varities of datasets and whether it gives correct results with correct data.Appium is utilized on an emulated device powered by Android Studio.
 Here the following tasks are done:
 - An EMI Calculator app extracted from [EMI calculator](https://play.google.com/store/apps/details?id=com.continuum.emi.calculator) is automated by extracting its apk.
-- First , a negative test case is executed where user hits the calculate button without giving any data.
 - Different data is tested where user gives Amount,Interest,Period and Processing fee and hits Calculate button.
 - The monthly EMI,total interest ,processing fee and total payment generated are matched with the expected data provided in the dataset.
-- Database testing is performed on a minor scale to check whether the system handles varieties of data to give correct result or not.
-- It is tested for five different data and a reset button will be pressed after a test case with a single data is executed.
-- JSON data will be stored for every user information.
+- It is tested for four different data and a reset button will be pressed after a test case with a single data is executed.
 
 ### Technology: </br>
 - Tool: Selenium Webdriver
@@ -33,7 +30,7 @@ Here the following tasks are done:
 - In the **JSON Representation** section, paste the following desired capabilities after adding your uuid and version:
 
 ```
-  "deviceName": "My Device",
+  "deviceName": "Your device name",
   "platformName": "Android",
   "uuid": Enter your uuid here,
   "platformVersion": Enter your android version,
